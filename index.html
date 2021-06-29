@@ -11,9 +11,68 @@
   <title>SRIFOTON 2021 | HMIF UNSRI</title>
 </head>
 <body>
+
 <!--Hero-->
+
 <div class="relative">
   <img class="absolute z-0 w-screen h-screen object-cover object-center" src="./img/bg-hero.png" alt="bg-hero">
+  <!--Navbar-->
+  <section
+      class="
+        h-full
+        w-full
+        border-box
+        transition-all
+        duration-500
+        linear
+        lg:px-24
+        md:px-20
+        px-8
+        py-8
+        absolute
+        z-20
+        font-rubik
+      "
+  >
+    <style>
+        .navbar-1-1 #menu-toggle:checked + #menu,
+        .navbar-1-1 #menu-toggle:checked + #menu + #menu {
+            display: block;
+        }
+    </style>
+    <div class="navbar-1-1">
+      <div class="container mx-auto flex flex-wrap flex-row items-center justify-between">
+        <a href="" class="flex font-medium items-center">
+          <img class="h-16" src="./img/logo.png" alt="logo">
+          <h5 class="text-white font-azonix pl-4 2xl:text-2xl">Srifoton</h5>
+        </a>
+        <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+          <svg class="w-6 h-6" fill="none" stroke="#FFF" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle"/>
+        <div
+            class="hidden lg:flex lg:items-center lg:w-auto w-full lg:ml-auto lg:mr-auto flex-wrap items-center text-base justify-center"
+            id="menu">
+          <nav class="space-x-0 items-center justify-between text-base pt-8 space-y-6 text-gray-50 tracking-wider
+                lg:pt-0 lg:space-y-0 lg:flex lg:space-x-12">
+            <a href="#" class="block font-medium hover:text-gray-200">Home</a>
+            <a href="#" class="block hover:text-gray-200">About</a>
+            <a href="#" class="block hover:text-gray-200">Competition</a>
+            <a href="#" class="block hover:text-gray-200 ">Webinar</a>
+          </nav>
+        </div>
+
+        <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+          <button class="btn btn-primary text-white items-center text-base mt-6 lg:mt-0">
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of Navbar-->
   <div class="w-screen h-screen absolute z-10 mx-auto inset-x-0 px-8 flex justify-center items-center flex-col text-center
   lg:container lg:text-left lg:flex-row lg:justify-around xl:px-0">
     <!-- Blob  -->

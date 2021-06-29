@@ -1,11 +1,10 @@
 # Srifoton UI
 Contain Srifoton web interface from UI/UX Design
 
-##Tools
+## Tools
 - TailwindCSS v2.2
 - Vite
 
-## How To Run
 Download dependencies :
 > $ npm install
 

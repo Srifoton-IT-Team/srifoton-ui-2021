@@ -6,7 +6,7 @@
   @font-face {
     font-family: "Azonix";
     font-weight: normal;
-    src: url('/public/fonts/Azonix.woff2') format("woff2");
+    src: url('/fonts/Azonix.woff2') format("woff2");
   }
 }
 

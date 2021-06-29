@@ -2,10 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Style -->
   <link rel="stylesheet" href="./css/tailwind.css">
   <title>SRIFOTON 2021 | HMIF UNSRI</title>
 </head>
 <body>
-<h1 class="text-4xl">Hello World!</h1>
+<!--Hero-->
+<div class="relative">
+  <img class="absolute z-0 w-screen h-screen object-cover object-center" src="./img/bg-hero.png" alt="bg-hero">
+  <div class="w-screen h-screen absolute z-10 mx-auto inset-x-0 px-8 flex justify-center items-center flex-col text-center
+  lg:container lg:text-left lg:flex-row lg:justify-around xl:px-0">
+    <!-- Blob  -->
+    <div class="order-1 lg:order-2">
+      <img class="h-96 xl:h-auto" src="./img/blob-hero.png" alt="">
+    </div>
+    <!-- End of Blob  -->
+
+    <!--  Text  -->
+    <div class="font-rubik text-white order-2 lg:order-1">
+      <h5 class="text-sm md:text-xl lg:text-base xl:text-lg 2xl:text-xl">HMIF UNSRI 2021</h5>
+      <h1 class="font-azonix text-5xl uppercase mt-4 md:text-7xl lg:text-6xl xl:text-7xl 2xl:text-8xl">Srifoton</h1>
+      <p class="mt-8 max-w-2xl text-md leading-relaxed tracking-wide text-gray-200 md:text-lg lg:text-base lg:max-w-lg xl:max-w-lg xl:text-lg
+      2xl:max-w-2xl 2xl:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec non dolor consequat, sollicitudin ipsum vel,
+        consequat risus. Pellentesque consectetur malesuada magna in tempus. Vestibulum suscipit volutpat consectetur.
+        Sed ut nulla ut purus finibus pretium. Mauris volutpat ac velit et euismod. </p>
+      <div class="mt-16 lg:mt-12 xl:mt-16">
+        <a class="btn btn-primary" href="#">Lihat Kompetisi</a>
+      </div>
+    </div>
+    <!--  End of Text  -->
+  </div>
+</div>
+<!--End of Hero-->
 </body>
 </html>

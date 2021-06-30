@@ -10,30 +10,16 @@
   <link rel="stylesheet" href="./css/tailwind.css">
   <title>SRIFOTON 2021 | HMIF UNSRI</title>
 </head>
-<body>
+<body class="overflow-y-auto overflow-x-hidden relative">
 
 <!--Hero-->
+<div class="">
 
-<div class="relative">
   <img class="absolute z-0 w-screen h-screen object-cover object-center" src="./img/bg-hero.png" alt="bg-hero">
+
   <!--Navbar-->
   <section
-      class="
-        h-full
-        w-full
-        border-box
-        transition-all
-        duration-500
-        linear
-        lg:px-24
-        md:px-20
-        px-8
-        py-8
-        absolute
-        z-20
-        font-rubik
-      "
-  >
+      class="h-full w-full border-box transition-all duration-500 linear px-8 lg:px-12 py-8 absolute z-20 font-rubik">
     <style>
         .navbar-1-1 #menu-toggle:checked + #menu,
         .navbar-1-1 #menu-toggle:checked + #menu + #menu {
@@ -73,10 +59,12 @@
     </div>
   </section>
   <!--End of Navbar-->
+
   <div class="w-screen h-screen absolute z-10 mx-auto inset-x-0 px-8 flex justify-center items-center flex-col text-center
   lg:container lg:text-left lg:flex-row lg:justify-around xl:px-0">
+
     <!-- Blob  -->
-    <div class="order-1 lg:order-2">
+    <div class="flex justify-center items-center order-1 lg:order-2">
       <img class="h-96 xl:h-auto" src="./img/blob-hero.png" alt="">
     </div>
     <!-- End of Blob  -->
@@ -98,5 +86,28 @@
   </div>
 </div>
 <!--End of Hero-->
+
+<!--About-->
+<div class="relative py-20 bg-green-50 xl:py-24" style="top: 100vh">
+  <div class="container px-8 mx-auto lg:px-0">
+    <h2 class="font-azonix text-center text-gray-900 tracking-wide text-2xl md:text-3xl lg:text-2xl xl:text-3xl">About Us</h2>
+    <div class="text-left text-gray-700 md:max-w-xl md:text-lg mx-auto
+    lg:flex lg:justify-around lg:max-w-full lg:leading-relaxed lg:text-base xl:text-lg xl:mt-4">
+      <p class="mt-8 lg:max-w-sm xl:max-w-md 2xl:max-w-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, at commodo pretium ac. Sed varius
+        amet dignissim
+        vivamus porttitor viverra quis tristique sem. Egestas integer at sagittis, eget pretium, porttitor ultrices
+        eget.
+        At ac dui sit egestas ipsum libero pulvinar sed ut. Nec amet sodales nec augue eget gravida viverra diam ipsum.
+        Fermentum, dolor elementum a sapien, faucibus eget amet. </p>
+      <p class="mt-8 lg:max-w-sm xl:max-w-md 2xl:max-w-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, at commodo pretium ac. Sed varius
+        amet dignissim
+        vivamus porttitor viverra quis tristique sem. Egestas integer at sagittis, eget pretium, porttitor ultrices
+        eget.
+        At ac dui sit egestas ipsum libero pulvinar sed ut. Nec amet sodales nec augue eget gravida viverra diam ipsum.
+        Fermentum, dolor elementum a sapien, faucibus eget amet. </p>
+    </div>
+  </div>
+</div>
+<!--End of About-->
 </body>
 </html>

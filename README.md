@@ -14,6 +14,7 @@ Run Development Server :
 
 Build optimized production build :
 > $ npm run build  
+
 Note: The production build _does not yet_ minify HTML by default. This is a subject for future development.
 
 Run production build :

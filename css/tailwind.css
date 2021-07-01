@@ -12,16 +12,23 @@
 
 @layer components {
   .btn {
-    @apply inline-block px-7 py-3 rounded-lg font-medium text-sm tracking-wider transition
+    @apply inline-block px-7 py-3 rounded-lg font-medium text-sm tracking-wider transition uppercase
     focus:outline-none focus:ring focus:ring-offset-2 focus:ring-opacity-50
     lg:px-5 lg:py-2 lg:tracking-normal
     xl:px-7 xl:py-3 xl:tracking-wider
   }
 
   .btn-primary {
-    @apply bg-indigo-500 text-white shadow-lg
-    active:bg-indigo-600
-    hover:bg-indigo-400
-    focus:ring-indigo-400;
+    @apply bg-brand text-white shadow-lg
+    active:bg-brand-dark
+    hover:bg-brand-light
+    focus:ring-brand-light;
+  }
+
+  .btn-secondary {
+    @apply bg-cp text-gray-900 shadow-lg
+    active:bg-cp-dark
+    hover:bg-cp-light
+    focus:ring-cp-light;
   }
 }

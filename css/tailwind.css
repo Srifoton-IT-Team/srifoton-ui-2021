@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background: #009578;
+    background: #108479;
 }
 
 .timeline {
@@ -10,7 +10,6 @@ body {
     padding: 25px;
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
-    font-family: "Fira Sans", sans-serif;
     color: #ffffff;
 }
 
